@@ -28,4 +28,13 @@ html{
 background-color: red;
 width: 3px;
 height: 150px;
+position: relative;
+top: 120px;
+}
+button{
+    background-color: coral;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
 }
