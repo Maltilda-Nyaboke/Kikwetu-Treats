@@ -13,11 +13,19 @@ html{
     height: 100vh;
 }
 .about{
-    background-image: url(../img/images.jpeg);
+    /* background-image: url(../img/images.jpeg);
     background-size: cover;
+    height: 100vh; */
+    background-color: black;
     height: 100vh;
 }
+.about h2{
+    font-weight: bold;
+    font-size: 50px;
+}
 
-hr{
-background-color: white;
+.rectangle{
+background-color: red;
+width: 3px;
+height: 150px;
 }
