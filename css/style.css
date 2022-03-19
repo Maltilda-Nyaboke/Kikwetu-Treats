@@ -17,3 +17,7 @@ html{
     background-size: cover;
     height: 100vh;
 }
+
+hr{
+background-color: white;
+}
