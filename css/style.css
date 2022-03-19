@@ -54,6 +54,18 @@ button{
     height: 100px;
 
 }
+.main1{
+    background-color: rgb(173, 95, 95);
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+}
+.main2{
+    background-color: rgb(58, 38, 38);
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+}
 .sub, .sub1, .sub2{
     display: none;
 }
