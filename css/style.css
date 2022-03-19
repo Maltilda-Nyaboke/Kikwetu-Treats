@@ -44,4 +44,17 @@ button{
 }
 .main{
     background-color: brown;
+    border-radius: 5px;
+    width: 70%;
+    height: 50%;
+
+}
+.sub, .sub1, .sub2{
+    display: none;
+}
+.fa-arrow-right{
+    font-size: 25px;
+    color: white;
+    /* width: 100px;
+    height: 20px; */
 }
