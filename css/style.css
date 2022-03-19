@@ -25,11 +25,13 @@ html{
     line-height: 1.5;
     margin-left: 50px;
 }
-
+.menu h2{
+    font-size: 60px;
+}
 .rectangle{
 background-color: #DC9458;
 width: 3px;
-height: 120px;
+height: 150px;
 position: relative;
 top: 140px;
 }
@@ -45,25 +47,30 @@ button{
 }
 .menu{
     background-color: black;
+    height: 70vh;
 
 }
+hr{
+   background-color: #DC9458;
+    width: 100px;
+    height: 5px;
+    text-align: center;
+}
 .main{
-    background-color: brown;
+    border-bottom: 2px solid #DC9458;
     border-radius: 5px;
-    width: 70%;
+    width: 50%;
     height: 100px;
 
 }
 .main1{
-    background-color: rgb(173, 95, 95);
-    border-radius: 5px;
-    width: 70%;
+    border-bottom: 2px solid #DC9458;
+    width: 50%;
     height: 100px;
 }
 .main2{
-    background-color: rgb(58, 38, 38);
-    border-radius: 5px;
-    width: 70%;
+    border-bottom: 2px solid #DC9458;
+    width: 50%;
     height: 100px;
 }
 .sub, .sub1, .sub2{
