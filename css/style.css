@@ -13,10 +13,10 @@ html{
     height: 100vh;
 }
 .about{
-    /* background-image: url(../img/images.jpeg);
+    background-image: url(../img/images\ \(1\).jpeg);
     background-size: cover;
-    height: 100vh; */
-    background-color: black;
+    height: 100vh;
+    /* background-color: black; */
     height: 100vh;
 }
 .about h2{
@@ -37,4 +37,8 @@ button{
     border-radius: 5px;
     height: 40px;
     width: 120px;
+}
+.menu{
+    background-color: black;
+
 }
