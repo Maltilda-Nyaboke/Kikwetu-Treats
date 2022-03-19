@@ -6,14 +6,14 @@
 html{
     scroll-behavior: smooth;
 }
-.banner{
-    background-image: url(../img/images.jpg);
+/* .banner{
+    background-image: url(../img/stock2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
-}
+} */
 .about{
-    background-image: url(../img/images\ \(1\).jpeg);
+    background-image: url(../img/stock.jpg);
     background-size: cover;
     height: 100vh;
     /* background-color: black; */
@@ -22,21 +22,26 @@ html{
 .about h2{
     font-weight: bold;
     font-size: 50px;
+    line-height: 1.5;
+    margin-left: 50px;
 }
 
 .rectangle{
-background-color: red;
+background-color: #DC9458;
 width: 3px;
-height: 150px;
+height: 120px;
 position: relative;
-top: 120px;
+top: 140px;
 }
 button{
-    background-color: coral;
+    background-color: #DC9458;
     border: none;
     border-radius: 5px;
     height: 40px;
-    width: 120px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+
 }
 .menu{
     background-color: black;
@@ -46,15 +51,16 @@ button{
     background-color: brown;
     border-radius: 5px;
     width: 70%;
-    height: 50%;
+    height: 100px;
 
 }
 .sub, .sub1, .sub2{
     display: none;
 }
-.fa-arrow-right{
-    font-size: 25px;
+/* .fa-arrow-right{
+    font-size: 35px;
     color: white;
+    width: 100px;
+    float: right; */
     /* width: 100px;
     height: 20px; */
-}
