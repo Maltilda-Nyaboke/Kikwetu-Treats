@@ -52,14 +52,39 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container"> -->
+        <!-- <div class="container d-flex"> -->
             <div class="order-text text-center text-black">
                 <h2>MAKE AN ORDER</h2>
             </div>
-            <div class="order justify-content-center">
+            <div class="order d-flex  justify-content-center mt-5">
             <div class="row">
-            <form>
-                    <div class="form-group">
+            <form id="form">
+                    <div class="form-group justify-content-center">
+                        <label for="exampleFormControlSelect1">Select size</label>
+                        <select class="form-control" id="size">
+                          <option value="0">Choose size</option>
+                          <option value="500">small
+                            <span class="currency" id="currency">KES</span>
+                            <span class="price" id="price">500</span>
+
+                          </option>
+                          <option value="medium">medium</option>
+                          <option value="large">large</option>
+                        </select>
+                      </div>
+                      <div class="form-group justify-content-center">
+                        <label for="exampleFormControlSelect1">Select crust</label>
+                        <select class="form-control" id="crust">
+                          <option value="0">Choose crust</option>
+                          <option value="small">crispy
+                            <span class="currency" id="currency">KES</span>
+                            <span class="price" id="price">500</span>
+                          </option>
+                          <option value="medium">stuffed</option>
+                          <option value="large">Gluten-free</option>
+                        </select>
+                      </div>
+                      <div class="form-group justify-content-center">
                         <label for="exampleFormControlSelect1">Select size</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                           <option value="0">Choose size</option>
@@ -67,6 +92,12 @@
                           <option value="medium">medium</option>
                           <option value="large">large</option>
                         </select>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="pep">
+                      </div>
+                      <div class="button">
+                          <button type="submit">Checkout</button>
                       </div>
                 
             </form>

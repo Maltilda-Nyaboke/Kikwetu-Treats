@@ -13,10 +13,10 @@ html{
     height: 100vh;
 } */
 .about{
-    background-image: url(../img/stock.jpg);
+    /* background-image: url(../img/stock.jpg); */
     background-size: cover;
     height: 100vh;
-    /* background-color: black; */
+    background-color: black;
     height: 100vh;
 }
 .about h2{
@@ -57,3 +57,11 @@ form .form-control:focus{
  width: 50vw;
  /* color: white; */
 }
+form .form-control{
+    box-shadow: none;
+    background-color: transparent;
+    border: 2px solid #DC9458;
+    border-radius: 5px;
+    width: 50vw;
+    /* color: white; */
+   }
