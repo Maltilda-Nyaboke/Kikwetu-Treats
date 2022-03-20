@@ -45,4 +45,15 @@ button{
     color: white;
 
 }
-
+.order{
+    /* background-color: black; */
+    height:70vh;
+}
+form .form-control:focus{
+ box-shadow: none;
+ background-color: transparent;
+ border: 2px solid #DC9458;
+ border-radius: 5px;
+ width: 50vw;
+ /* color: white; */
+}
