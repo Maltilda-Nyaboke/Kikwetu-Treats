@@ -47,7 +47,7 @@ button{
 }
 .menu{
     background-color: black;
-    height: 70vh;
+    height: 100vh;
 
 }
 hr{
@@ -74,6 +74,15 @@ hr{
     height: 100px;
 }
 .sub, .sub1, .sub2{
-    display: none;
+    /* display: none; */
 }
-
+/* .sub{
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+} */
+.b img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
