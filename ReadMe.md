@@ -1,4 +1,4 @@
-# KIKWETU PIZZERIA
+# KIKWETU TREATS
 
 ##### By Maltilda Nyaboke 
 ### It is a description of a web application that showcases a restaurant that sells pizza.
