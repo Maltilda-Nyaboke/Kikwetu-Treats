@@ -73,13 +73,8 @@ hr{
     width: 50%;
     height: 100px;
 }
-.sub, .sub1, .sub2{
-    /* display: none; */
-}
-/* .sub{
-    background-color: transparent;
-    border: 2px solid red;
-    border-radius: 5px;
+/* .sub, .sub1, .sub2{
+    display: none;
 } */
 .b img{
     height: 50px;
