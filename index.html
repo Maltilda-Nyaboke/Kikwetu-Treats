@@ -53,11 +53,10 @@
             </div>
         </div>
         <!-- <div class="container d-flex"> -->
-        
-        <div class="order-text text-center text-black">
-            <h2>MAKE AN ORDER</h2>
-        </div>
         <div class="reset">
+            <div class="order-text text-center text-black">
+                <h2>MAKE AN ORDER</h2>
+            </div>
             <div class="order d-flex  justify-content-center mt-5">
                 <div class="row">
                     <form id="form">
@@ -120,7 +119,7 @@
     
     
                         <div class="button">
-                            <button type="submit">Checkout</button>
+                            <button type="submit">Order Now</button>
                         </div>
     
                     </form>
@@ -136,10 +135,28 @@
                 <div class="col-md-4"></div>
                 <div class=" image col-md-4">
                     <img src="./img/menu1.jpg" alt="menu1">
-                    <p>Size:</p>
-                    <p>Crust:</p>
-                    <p>Toppings</p>
-                    
+                    <p class="size-desc">Size:</p>
+                    <p class="crust-desc">Crust:</p>
+                    <p class="topping-desc">Toppings:</p>
+                    <div class="column">
+                        <p>Quantity: <span class="qnty"></span></p>
+                        <p>Total order price: <span class="total-price"></span></p>
+                    </div>
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-sm-4  fs-100 fw-bold">
+                                <span class="remove_order_qnty"> &minus;</span>
+                            </div>
+                            <div class="col-sm-4">
+                                <span class="add_order_qty">&plus;</span>
+                            </div>
+                            <div class="col-sm-4">
+                                <button type="add" class="add-order">add</button>
+                            </div>
+                            <button type="add">checkout</button>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-4"></div>
                 
