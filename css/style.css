@@ -65,3 +65,7 @@ form .form-control{
     width: 50vw;
     /* color: white; */
    }
+.image img{
+    width: 150px;
+    height: 150px;
+}
