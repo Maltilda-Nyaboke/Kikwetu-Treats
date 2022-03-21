@@ -1,9 +1,9 @@
-$(document).ready(function(){
-    $(".main").click(function(){
-        $(".sub").show()
-        // $(".sub").hide()
-    })
-});
+function Pizza(size,crust,topping,quantity){
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+
+}
 var currentPrice = 0;
 let quantityVar = 1;
 let add_order_qnty = document.querySelector(".add_order_qty");
@@ -18,6 +18,7 @@ form.addEventListener('submit',placeOrder);
 //function for placing order
 function placeOrder (e){
     e.preventDefault();
+    Pizza.prototype.getSizeValue= function(){};
     var size = document.getElementById("size").selectedOptions;
     for(let i =0; i< size.length; i++){
         if(size[i].selected){
@@ -30,6 +31,7 @@ function placeOrder (e){
                 let size_desc = document.querySelector(".size-desc").innerHTML;
                 size_desc = `${size_desc} ${sizeTextArray[0]}`;
                 size_desc_para.innerHTML = size_desc;
+                Pizza.prototype.getCrustValue = function(){};
             var crust = document.getElementById("crust").selectedOptions;
             for(let k = 0; k<crust.length; k++){
                 //updating current price
@@ -45,6 +47,7 @@ function placeOrder (e){
                 crust_desc_para.innerHTML = crust_desc;
     
                 //toppings
+                Pizza.prototype.getToppingValue = function(){}
                 var toppings =document.querySelectorAll(".topping");
                 for(let j of toppings){
                     if(j.checked){
@@ -60,6 +63,7 @@ function placeOrder (e){
                         console.log(topping_desc);
 
                         quantity_ordered.innerHTML = quantityVar;
+                        console.log(quantityVar);
                         
                     }
                     
@@ -83,7 +87,7 @@ function addOrderQuantity(e){
     //set price according to quantity
     let number_of_items_ordered = parseInt(quantity_ordered);
     let item_price = parseInt(total_price_content);
-    total_price.innerHTML =  currentPrice * number_of_items_ordered;
+    total_price.innerHTML = currentPrice * number_of_items_ordered;
 }
 remove_order_qnty.addEventListener("click", removeOrderQnty)
 function removeOrderQnty(e){

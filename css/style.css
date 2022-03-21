@@ -69,3 +69,17 @@ form .form-control{
     width: 150px;
     height: 150px;
 }
+.add-order button{
+    background-color: #DC9458;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    padding: 10px;
+    color: white;
+}
+.image{
+    border: inset;
+    border-radius: 5px;
+    padding: 30px;
+}
