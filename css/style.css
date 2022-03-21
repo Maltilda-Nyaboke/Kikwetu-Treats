@@ -140,13 +140,16 @@ form .form-control{
     border-radius: 5px;
     padding: 30px;
 }
+.order-summary{
+    display: none;
+}
 .serve{
     position: relative;
 }
-.serve a:hover{
+/* .serve a:hover{
     opacity: 1;
     transform:scale(1.25);
-}
+} */
 h4{
     position: absolute;
     bottom: 150px;

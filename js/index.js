@@ -31,3 +31,9 @@ add_order.addEventListener("click", (e)=>{
     $(".reset").show();
     $(".order-summary").hide();
 });
+
+document.ready(function(){
+    $("button.checkoutBtn").click(function(){
+        alert("enter location")
+    })
+})
