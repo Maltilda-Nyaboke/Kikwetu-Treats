@@ -53,86 +53,78 @@
             </div>
         </div>
         <!-- <div class="container d-flex"> -->
+        
         <div class="order-text text-center text-black">
             <h2>MAKE AN ORDER</h2>
         </div>
-        <div class="order d-flex  justify-content-center mt-5">
-            <div class="row">
-                <form id="form">
-                    <div class="form-group justify-content-center">
-                        <label for="exampleFormControlSelect1">Select size</label>
-                        <select class="form-control" id="size">
-                            <option value="0">Choose size</option>
-                            <option value="500">small
-                                <span class="currency" id="currency">KES</span>
-                                <span class="price" id="price">500</span>
-
-                            </option>
-                            <option value="medium">medium</option>
-                            <option value="large">large</option>
-                        </select>
-                    </div>
-                    <div class="form-group justify-content-center">
-                        <label for="exampleFormControlSelect1">Select crust</label>
-                        <select class="form-control" id="crust">
-                            <option value="0">Choose crust</option>
-                            <option value="200">crispy
-                                <span class="currency" id="currency">KES</span>
-                                <span class="price" id="price">500</span>
-                            </option>
-                            <option value="medium">stuffed</option>
-                            <option value="large">Gluten-free</option>
-                        </select>
-                    </div>
-                    <!-- <div class="form-group justify-content-center">
-                        <label for="exampleFormControlSelect1">Select size</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option value="0">Choose size</option>
-                          <option value="small">small</option>
-                          <option value="medium">medium</option>
-                          <option value="large">large</option>
-                        </select>
-                      </div> -->
-                    <!-- <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="pep">
-                      </div> -->
-                      <label for=""> Select topping(s)</label>
-                    <div class="block mb-3">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input topping" type="checkbox" id="inlineCheckbox1" value="100">
-                            <label class="form-check-label" for="inlineCheckbox1">pepperoni</label>
+        <div class="reset">
+            <div class="order d-flex  justify-content-center mt-5">
+                <div class="row">
+                    <form id="form">
+                        <div class="form-group justify-content-center">
+                            <label for="exampleFormControlSelect1">Select size</label>
+                            <select class="form-control" id="size">
+                                <option value="0">Choose size</option>
+                                <option value="500">small
+                                    <span class="currency" id="currency">KES</span>
+                                    <span class="price" id="price">500</span>
+    
+                                </option>
+                                <option value="medium">medium</option>
+                                <option value="large">large</option>
+                            </select>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="100">
-                            <label class="form-check-label" for="inlineCheckbox2">cheese</label>
+                        <div class="form-group justify-content-center">
+                            <label for="exampleFormControlSelect1">Select crust</label>
+                            <select class="form-control" id="crust">
+                                <option value="0">Choose crust</option>
+                                <option value="200">crispy
+                                    <span class="currency" id="currency">KES</span>
+                                    <span class="price" id="price">500</span>
+                                </option>
+                                <option value="medium">stuffed</option>
+                                <option value="large">Gluten-free</option>
+                            </select>
                         </div>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="100">
-                        <label class="form-check-label" for="inlineCheckbox1">mushroom</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="100">
-                        <label class="form-check-label" for="inlineCheckbox2">chicken</label>
-                    </div>
-
-                    <div class="block mt-3">
+                        
+                          <label for=""> Select topping(s)</label>
+                        <div class="block mb-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input topping" type="checkbox" id="inlineCheckbox1" value="100">
+                                <label class="form-check-label" for="inlineCheckbox1">pepperoni</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input topping" type="checkbox" id="inlineCheckbox2" value="100">
+                                <label class="form-check-label" for="inlineCheckbox2">cheese</label>
+                            </div>
+                        </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="100">
-                            <label class="form-check-label" for="inlineCheckbox1">veggies</label>
+                            <label class="form-check-label" for="inlineCheckbox1">mushroom</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="100">
-                            <label class="form-check-label" for="inlineCheckbox2">beef</label>
+                            <label class="form-check-label" for="inlineCheckbox2">chicken</label>
                         </div>
-                    </div>
-
-
-                    <div class="button">
-                        <button type="submit">Checkout</button>
-                    </div>
-
-                </form>
+    
+                        <div class="block mt-3 mb-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="100">
+                                <label class="form-check-label" for="inlineCheckbox1">veggies</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="100">
+                                <label class="form-check-label" for="inlineCheckbox2">beef</label>
+                            </div>
+                        </div>
+    
+    
+                        <div class="button">
+                            <button type="submit">Checkout</button>
+                        </div>
+    
+                    </form>
+                </div>
             </div>
         </div>
     </div>

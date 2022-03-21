@@ -20,19 +20,20 @@ for(let i =0; i< size.length; i++){
             currentPrice = currentPrice + crustPrice;
             var toppings =document.querySelectorAll(".topping");
             for(let j of toppings){
-                console.log(j.value)
+                if(j.checked){
+                    let toppingPrice = parseInt(j.value);
+                    currentPrice = currentPrice + toppingPrice;
+                    let selectedTopping = j.nextElementSibling.innerHTML;
+                    console.log(selectedTopping);
+                    
+                }
+                
             }
         }
     }
 }
+$(".reset").hide();
 console.log(currentPrice);
 
 });
-
-function Area(selection){
-    this.selection =selection;
-    this.setPrice = function(){
-        return alert("selected");
-    }
-}
 
