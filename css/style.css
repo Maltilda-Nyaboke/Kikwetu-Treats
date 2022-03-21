@@ -13,28 +13,28 @@ html{
     height: 100vh;
 } */
 .about{
-    /* background-image: url(../img/stock.jpg); */
     background-size: cover;
     height: 100vh;
     background-color: black;
-    height: 100vh;
+    
 }
 .about h2{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.5;
-    margin-left: 50px;
+    border-left: 3px solid #DC9458;
+    padding: 50px;
 }
 .menu h2{
     font-size: 60px;
 }
-.rectangle{
+/* .rectangle{
 background-color: #DC9458;
 width: 3px;
 height: 150px;
 position: relative;
 top: 140px;
-}
+} */
 button{
     background-color: #DC9458;
     border: none;
