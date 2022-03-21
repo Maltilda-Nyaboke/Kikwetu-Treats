@@ -141,7 +141,7 @@ form .form-control{
     padding: 30px;
 }
 .order-summary{
-    display: none;
+    /* display: none; */
 }
 .serve{
     position: relative;
