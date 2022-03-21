@@ -46,10 +46,12 @@ html{
     justify-content: center;
     margin-bottom: 50px;
 }
+.menu{
+    width: 99%;
+}
 .menu h2{
     font-size: 40px;
     color:  #DC9458;
-    text-align: center;
 }
 
 .ban-button button{
@@ -145,6 +147,7 @@ form .form-control{
 .serve{
     position: relative;
 }
+
 h4{
     position: absolute;
     bottom: 150px;
