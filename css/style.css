@@ -16,6 +16,8 @@ html{
     background-size: cover;
     height: 100vh;
     background-color: black;
+    display: flex;
+    background-image: url(../img/stock.jpg);
     
 }
 .about h2{
@@ -24,9 +26,14 @@ html{
     line-height: 1.5;
     border-left: 3px solid #DC9458;
     padding: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 .menu h2{
-    font-size: 60px;
+    font-size: 40px;
+    color:  #DC9458;
+    /* width: 120px; */
+    text-align: center;
 }
 /* .rectangle{
 background-color: #DC9458;
@@ -82,4 +89,15 @@ form .form-control{
     border: inset;
     border-radius: 5px;
     padding: 30px;
+}
+.serve{
+    position: relative;
+}
+h4{
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
