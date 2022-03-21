@@ -32,7 +32,12 @@ add_order.addEventListener("click", (e)=>{
     $(".order-summary").hide();
 });
 
+
 $(document).ready(function(){
+    $(".confirm-button").click(function(){
+        $(".order-summary").show()
+        $(".reset").hide()
+    })
     $(".checkoutBtn").click(function(){
         prompt("enter location")
         alert("Your order will be delivered to your location")
