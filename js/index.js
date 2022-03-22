@@ -6,7 +6,7 @@ function addOrderQuantity(e){
     quantity_ordered.innerHTML = quantityVar;
 
     //set price according to quantity
-    let number_of_items_ordered = parseInt(quantity_ordered);
+    let number_of_items_ordered = parseInt(quantity_ordered.innerHTML);
     let item_price = parseInt(total_price_content);
     total_price.innerHTML = currentPrice * number_of_items_ordered;
 }
@@ -22,7 +22,7 @@ function removeOrderQnty(e){
     quantity_ordered.innerHTML = quantityVar;
 
     //set price according to quantity
-    let number_of_items_ordered = parseInt(quantity_ordered);
+    let number_of_items_ordered = parseInt(quantity_ordered.innerHTML);
     let item_price = parseInt(total_price_content);
     total_price.innerHTML =  currentPrice * number_of_items_ordered;
 }
