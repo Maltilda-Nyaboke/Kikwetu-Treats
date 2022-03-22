@@ -110,12 +110,15 @@ form .form-control{
     color: white;
 }
 .image{
-    border: inset;
     border-radius: 5px;
     padding: 30px;
+    border: 5px solid#DC9458;
 }
 .order-summary{
     display: none;
+}
+.order-summary{
+    width: 99%;
 }
 .confirm-button button{
     background-color: #DC9458;
