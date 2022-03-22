@@ -28,6 +28,9 @@ function removeOrderQnty(e){
 }
 
 add_order.addEventListener("click", (e)=>{
+    var order_tracker = [];
+    quantityVar = quantityVar + 1;
+    quantity_ordered.innerHTML = quantityVar;
     $(".reset").show();
     $(".order-summary").hide();
 });
