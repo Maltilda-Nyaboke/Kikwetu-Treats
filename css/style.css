@@ -30,7 +30,7 @@ html{
 } */
 .about{
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: black;
     display: flex;
     background-image: url(../img/stock-removebg-preview.png);
@@ -72,7 +72,7 @@ html{
     width: 200px;
     padding: 10px;
     color: white;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
 }
 .checkout button{
