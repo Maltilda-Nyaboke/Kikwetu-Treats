@@ -13,28 +13,28 @@ html{
     height: 100vh;
     position: relative;
 }
-.banner h2{
+/* .banner h2{
     font-size: 70px;
     position: absolute;
     top: 200px;
     text-align: center;
     left: 300px;
     color: white;
-}
-.banner p{
+} */
+/* .banner p{
     position: absolute;
     top: 350px;
     text-align: center;
     left: 400px;
     color: white;
-}
+} */
 .about{
     background-size: cover;
     height: 100vh;
     background-color: black;
     display: flex;
     background-image: url(../img/stock-removebg-preview.png);
-    margin-top: 50px;
+    /* margin-top: 50px; */
     
 }
 .about h2{
@@ -44,7 +44,7 @@ html{
     border-left: 3px solid #DC9458;
     padding: 50px;
     justify-content: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .menu{
     width: 99%;
@@ -55,9 +55,6 @@ html{
 }
 
 .ban-button button{
-    position: absolute;
-    top: 400px;
-    left: 420px;
     background-color: #DC9458;
     border: none;
     border-radius: 5px;
@@ -145,7 +142,9 @@ form .form-control{
     color: white;
 }
 .serve{
+    transition: transform 1s ease-in-out;
     position: relative;
+    ;
 }
 
 h4{
